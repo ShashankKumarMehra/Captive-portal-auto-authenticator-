@@ -2,7 +2,7 @@
 #include <Wire.h>
 #include <HTTPClient.h>
 #define LED_BUILTIN 2
-#define AP_SSID "samurai"
+#define AP_SSID "samurai" //Use your own wifi SSID
 #define AP_PASSWORD "" // leaves empty if open wifi
 
 TaskHandle_t Task1;
